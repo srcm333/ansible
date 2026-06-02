@@ -3,5 +3,5 @@
   tasks: #task == module == collection
     - name: hello world
       debug:
-       msg: "Hello Ansible!"
-       ansible.builtin.ping:
+        msg: "Hello Ansible!"
+        ansible.builtin.ping:
