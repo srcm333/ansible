@@ -2,4 +2,6 @@
   hosts: frontend #traget server
   tasks: #task == module == collection
     - name: hello world
+      debug:
+        msg: "Hello Ansible!"
       ansible.builtin.ping:
