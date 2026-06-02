@@ -1,5 +1,5 @@
 - name: demo on debug
-  host: frontend
-  tasks:
+  hosts: frontend #traget server
+  tasks: #task == module == collection
     - name: hello world
-      debug:
+      ansible.builtin.ping:
