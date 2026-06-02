@@ -1,6 +1,6 @@
 - name: ping the server
   hosts: frontend #traget server
-  task: #task == module == collection
-  - name: ping the server
-    ping:
+  tasks: #task == module == collection
+  - name: ping test
+    ansible.builtin.ping:
 
