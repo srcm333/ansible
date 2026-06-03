@@ -4,3 +4,8 @@
   tasks:
     - name: command test
       shell: cat /etc/passwd | grep root
+      register: users_output
+
+    - name: print users_output
+      debug:
+        msg: "{{ users_output }}"
