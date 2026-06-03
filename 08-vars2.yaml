@@ -1,0 +1,8 @@
+- name: demo on vars_files
+  hosts: frontend
+  #connection: local
+  become: yes
+  tasks:
+  - name: print variables information
+    debug:
+      msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
