@@ -49,6 +49,6 @@
       debug:
         msg: "{{ full_name | lower }}"  
 
-    - name: check ipv4 ip_address
+    - name: check ipv4 ip address
       debug:
         msg: "{{ ip_address | ansible.utils.ipv4 }}" 
