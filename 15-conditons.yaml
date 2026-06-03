@@ -1,7 +1,7 @@
 - name: conditions using ansible_facts
   hosts: frontend
   tasks:
-  - name: print if ReadHat"
+  - name: print if ReadHat
     debug:
       msg: "OS Family is ReadHat, package manager is dnf"
     When: ansible_facts.os_family == "RedHat"
