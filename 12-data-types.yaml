@@ -1,5 +1,5 @@
 - name: course information
-  host: local
+  hosts: local
   connection: local
   vars:
     course: "DevsecOps with AIOps" #String
