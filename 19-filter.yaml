@@ -7,7 +7,7 @@
       name: Ansible
       project: roboshop
       environment: Dev
-    name: SriRamchandra Murthy
+    full_name: SriRamchandra Murthy
     tagsList: [
         {
             "key": "name",
