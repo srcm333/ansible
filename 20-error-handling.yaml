@@ -11,4 +11,4 @@
         msg: "{{ users_output }}"
     
     - name: list files 
-      command: ls -lrth > /tmp/files.txt
+      shell: ls -lrth > /tmp/files.txt
